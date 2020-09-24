@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Awesome Polar Bears</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="icon.png" type="image/png" sizes="32x32">
+        <meta name="description" content="Hi google, this is my website about polar bears">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header id="page-header" class="page-header">
+            <a href="about.html" class="nav-link">About</a>
+            <a href="https://en.wikipedia.org/wiki/Polar_bear"  class="nav-link" target="_blank">Polar Bear Wiki</a>
+            <a href="https://en.wikipedia.org/wiki/Penguin"  class="nav-link" target="_blank">Penguin Wiki</a>
+        </header>
+        <h1>Awesome blog about blogging, so meta!</h1>
+        <p>This is our awesome blog, we hope you enjoy all the amazing information you will read.</p>
+        <img src="bear.jpg" alt="polar bear"/>
+        <h2>This is Billy the polar bear!</h2>
+        <p>
+            Billy is a very <b>large</b> polar bear, <strong>he weighs 500kg!</strong>
+        </p>
+        <p>
+            On the next island, there are <small>tiny</small> penguins.
+        </p>
+        <p>The penguins hide from the polar bears, because they <em>don't</em> want to be eaten.</p>
+
+        <br/>
+        <blockquote>
+            "I love polar bears, they're great. from the <abbr title="World Wildlife Federation">wwf</abbr>'s leading researcher" - <cite>David Attenborough</cite>
+        </blockquote>
+
+        <h4>Food polar bears like</h4>
+        <ul>
+            <li>Fish</li>
+            <li>Penguins</li>
+            <li>Chocolate</li>
+        </ul>
+        
+        <h4>Polar bear priorities</h4>
+
+        <ol>
+            <li>Eat</li>
+            <li>Chill</li>
+            <li>Repeat</li>
+        </ol>
+
+        <table>
+            <tr>
+                <th>Name:</th>
+                <th>Weight:</th>
+            </tr>
+            <tr>
+                <td>James</td>
+                <td>100kg</td>
+            </tr>
+            <tr>
+                <td>Mike</td>
+                <td>800kg</td>
+            </tr>
+        </table>
+
+        <video width="140" height="140" controls>
+            <source src="bear.mp4" type="video/mp4"/>
+        </video>
+        <a href="https://en.wikipedia.org/wiki/Polar_bear" target="_blank">Polar Bear Wiki</a>
+        <br/>
+        <hr/>
+        <br/>
+
+        <!-- Form for comments -->
+        <form>
+            <div>
+                <label for="fullname">Name:</label>
+                <input type="text" id="fullname" placeholder="full name goes here"/>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email"/>
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="number" id="number"/>
+            </div>
+            <label for="message">Message:</label>
+            <textarea rows="3"></textarea>
+            <br/>
+            <label for="contact-me">Please contact me.</label>
+            <input type="checkbox" id="contact-me" value="contactme"/>
+            <br/>
+            <label for="contact-number">Phone</label>
+            <input type="radio" id="contact-number" name="contact-type" value="phone">
+            <br/>
+            <label for="contact-email">Email</label>
+            <input type="radio" id="contact-email" name="contact-type" value="email">
+            <br/>
+            <label for="fav-animal">What is your favourite animal?</label>
+            <br/>
+            <select id="fav-animal" name="fave-animal">
+                <option value="polar-bear">Polar Bear</option>
+                <option value="brown-bear">Brown Bear</option>
+                <option value="penguin">Penguin</option>
+            </select>
+            <br/>
+            <button type="submit">Submit Comment</button>
+
+        </form>
+
+
+
+        <br/>
+        <footer>
+            <p><small>Copyright Awesome Blog 2020</small></p>
+            <address>
+                1 Infinite Loop<br/>
+                California<br/>
+                CA123<br/>
+                USA
+            </address>
+        </footer>
+    </body>
+    
+</html>
